@@ -1,25 +1,166 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vOz-AM-bFa">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <!--Tinder View-->
+        <scene sceneID="7F3-MD-AxZ">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="bpv-xX-C1A" customClass="TinderView" customModule="DateInTheDark" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                        <viewControllerLayoutGuide type="top" id="NOM-kb-ldV"/>
+                        <viewControllerLayoutGuide type="bottom" id="Fgu-Ua-r2A"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                    <view key="view" contentMode="scaleToFill" id="PGp-6O-VeR">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="pD7-SG-8v4">
+                        <barButtonItem key="leftBarButtonItem" id="OgC-lL-2mw">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="rCW-zb-bNY">
+                                <rect key="frame" x="16" y="9" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <inset key="contentEdgeInsets" minX="-18" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" image="ic_menuRotated@3x.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ln6-J3-3Mj" kind="custom" customClass="GuillotineMenuSegue" customModule="DateInTheDark" customModuleProvider="target" id="kLB-Kb-J7F"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="barButton" destination="rCW-zb-bNY" id="1ui-DO-c8C"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fyn-qj-Vl4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1318" y="540"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2Jp-zM-rAr">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vOz-AM-bFa" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Mgi-Fe-9sf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bpv-xX-C1A" kind="relationship" relationship="rootViewController" id="1cy-eG-a3J"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vul-U4-uuz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="627" y="529"/>
+        </scene>
+        <!--Guillotine Menu View Controller-->
+        <scene sceneID="AH0-Yb-hWV">
+            <objects>
+                <viewController id="ln6-J3-3Mj" customClass="GuillotineMenuViewController" customModule="DateInTheDark" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OJU-te-WTm"/>
+                        <viewControllerLayoutGuide type="bottom" id="vag-km-frj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="f3N-wv-IPG">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CVb-Y3-Izz">
+                                <rect key="frame" x="150" y="175" width="300" height="250"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5PR-3x-r36">
+                                        <rect key="frame" x="54" y="202" width="200" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="PJM-Lq-Irk"/>
+                                            <constraint firstAttribute="height" constant="40" id="lhi-eq-H44"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                        <inset key="titleEdgeInsets" minX="50" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="SETTINGS" image="ic_settings@3x.png">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gzn-n4-th0">
+                                        <rect key="frame" x="50" y="8" width="200" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="nSh-Ni-8cv"/>
+                                            <constraint firstAttribute="width" constant="200" id="pXs-Os-rSW"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                        <inset key="titleEdgeInsets" minX="50" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="PROFILE" image="ic_profile@3x.png">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BOd-RP-dvq">
+                                        <rect key="frame" x="50" y="56" width="200" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="BV1-FT-cDo"/>
+                                            <constraint firstAttribute="height" constant="40" id="cib-PY-oXC"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                        <inset key="titleEdgeInsets" minX="50" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="FEED" image="ic_feed@3x.png">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DQb-x2-W4o">
+                                        <rect key="frame" x="50" y="105" width="200" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="Gvw-CE-uX6"/>
+                                            <constraint firstAttribute="height" constant="40" id="QXa-rJ-DnH"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                        <inset key="titleEdgeInsets" minX="50" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="ACTIVITY" image="ic_activity@3x.png">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="gzn-n4-th0" firstAttribute="top" secondItem="CVb-Y3-Izz" secondAttribute="top" constant="8" id="034-8k-VXL"/>
+                                    <constraint firstItem="5PR-3x-r36" firstAttribute="centerX" secondItem="DQb-x2-W4o" secondAttribute="centerX" constant="4" id="5tm-vP-HYa"/>
+                                    <constraint firstItem="DQb-x2-W4o" firstAttribute="top" secondItem="BOd-RP-dvq" secondAttribute="bottom" constant="9" id="6bO-XW-WFF"/>
+                                    <constraint firstItem="BOd-RP-dvq" firstAttribute="top" secondItem="gzn-n4-th0" secondAttribute="bottom" constant="8" id="Fa1-1s-Lhz"/>
+                                    <constraint firstItem="gzn-n4-th0" firstAttribute="centerX" secondItem="BOd-RP-dvq" secondAttribute="centerX" id="Kao-eU-7Rj"/>
+                                    <constraint firstAttribute="bottom" secondItem="5PR-3x-r36" secondAttribute="bottom" constant="8" id="L3H-T7-RE2"/>
+                                    <constraint firstItem="DQb-x2-W4o" firstAttribute="centerX" secondItem="BOd-RP-dvq" secondAttribute="centerX" id="U31-RK-mtk"/>
+                                    <constraint firstAttribute="height" constant="250" id="WDF-z8-g6x"/>
+                                    <constraint firstAttribute="centerX" secondItem="gzn-n4-th0" secondAttribute="centerX" id="cJ8-mh-Avl"/>
+                                    <constraint firstAttribute="width" constant="300" id="gXQ-p9-lF5"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="CVb-Y3-Izz" secondAttribute="centerX" id="dff-Km-rch"/>
+                            <constraint firstAttribute="centerY" secondItem="CVb-Y3-Izz" secondAttribute="centerY" id="w7T-6U-Dqa"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ayt-BM-g6D" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1999" y="540"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ic_activity@3x.png" width="75" height="57"/>
+        <image name="ic_feed@3x.png" width="63" height="66"/>
+        <image name="ic_menuRotated@3x.png" width="30" height="44"/>
+        <image name="ic_profile@3x.png" width="51" height="72"/>
+        <image name="ic_settings@3x.png" width="69" height="69"/>
+    </resources>
 </document>
