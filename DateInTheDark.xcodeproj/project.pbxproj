@@ -23,6 +23,7 @@
 		8AC6FE241B3D90E8006880EF /* ic_menuRotated@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC6FE1C1B3D90E8006880EF /* ic_menuRotated@3x.png */; };
 		8AC6FE251B3D90E8006880EF /* ic_profile@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC6FE1D1B3D90E8006880EF /* ic_profile@3x.png */; };
 		8AC6FE261B3D90E8006880EF /* ic_settings@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC6FE1E1B3D90E8006880EF /* ic_settings@3x.png */; };
+		8AC6FE381B3F28C5006880EF /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC6FE371B3F28C5006880EF /* ProfileView.swift */; };
 		8AF42A6A1B3D7E4C004B5EF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF42A691B3D7E4C004B5EF7 /* AppDelegate.swift */; };
 		8AF42A6F1B3D7E4C004B5EF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF42A6D1B3D7E4C004B5EF7 /* Main.storyboard */; };
 		8AF42A711B3D7E4C004B5EF7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AF42A701B3D7E4C004B5EF7 /* Images.xcassets */; };
@@ -60,6 +61,7 @@
 		8AC6FE1C1B3D90E8006880EF /* ic_menuRotated@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_menuRotated@3x.png"; sourceTree = "<group>"; };
 		8AC6FE1D1B3D90E8006880EF /* ic_profile@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_profile@3x.png"; sourceTree = "<group>"; };
 		8AC6FE1E1B3D90E8006880EF /* ic_settings@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_settings@3x.png"; sourceTree = "<group>"; };
+		8AC6FE371B3F28C5006880EF /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		8AF42A641B3D7E4C004B5EF7 /* DateInTheDark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateInTheDark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF42A681B3D7E4C004B5EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AF42A691B3D7E4C004B5EF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 		8AC6FE031B3D843C006880EF /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				8AC6FE271B3F286E006880EF /* ProfileView */,
 				8AC6FE0D1B3D90B1006880EF /* Menu */,
 				8AC6FE041B3D8445006880EF /* TinderView */,
 			);
@@ -120,7 +123,7 @@
 		8AC6FE041B3D8445006880EF /* TinderView */ = {
 			isa = PBXGroup;
 			children = (
-				8AC6FE0B1B3D8E73006880EF /* ZLSwipeableView.swift */,
+				8AC6FE391B3F301B006880EF /* Imports */,
 				8AC6FE051B3D8462006880EF /* TinderView.swift */,
 				8AC6FE071B3D846C006880EF /* TinderViewModel.swift */,
 				8AC6FE091B3D8B93006880EF /* CardView.swift */,
@@ -131,10 +134,8 @@
 		8AC6FE0D1B3D90B1006880EF /* Menu */ = {
 			isa = PBXGroup;
 			children = (
-				8AC6FE0E1B3D90C0006880EF /* GuillotineMenuSegue.swift */,
-				8AC6FE0F1B3D90C0006880EF /* GuillotineMenuTransitionAnimation.swift */,
+				8AC6FE3A1B3F3050006880EF /* Imports */,
 				8AC6FE101B3D90C0006880EF /* GuillotineMenuViewController.swift */,
-				8AC6FE111B3D90C0006880EF /* UIViewExtension.swift */,
 			);
 			name = Menu;
 			sourceTree = "<group>";
@@ -152,6 +153,32 @@
 				8AC6FE1E1B3D90E8006880EF /* ic_settings@3x.png */,
 			);
 			name = TempImages;
+			sourceTree = "<group>";
+		};
+		8AC6FE271B3F286E006880EF /* ProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				8AC6FE371B3F28C5006880EF /* ProfileView.swift */,
+			);
+			name = ProfileView;
+			sourceTree = "<group>";
+		};
+		8AC6FE391B3F301B006880EF /* Imports */ = {
+			isa = PBXGroup;
+			children = (
+				8AC6FE0B1B3D8E73006880EF /* ZLSwipeableView.swift */,
+			);
+			name = Imports;
+			sourceTree = "<group>";
+		};
+		8AC6FE3A1B3F3050006880EF /* Imports */ = {
+			isa = PBXGroup;
+			children = (
+				8AC6FE111B3D90C0006880EF /* UIViewExtension.swift */,
+				8AC6FE0E1B3D90C0006880EF /* GuillotineMenuSegue.swift */,
+				8AC6FE0F1B3D90C0006880EF /* GuillotineMenuTransitionAnimation.swift */,
+			);
+			name = Imports;
 			sourceTree = "<group>";
 		};
 		8AF42A5B1B3D7E4C004B5EF7 = {
@@ -380,6 +407,7 @@
 				8AC6FE081B3D846C006880EF /* TinderViewModel.swift in Sources */,
 				8AC6FE151B3D90C0006880EF /* UIViewExtension.swift in Sources */,
 				8AC6FE0A1B3D8B93006880EF /* CardView.swift in Sources */,
+				8AC6FE381B3F28C5006880EF /* ProfileView.swift in Sources */,
 				8AF42A6A1B3D7E4C004B5EF7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -508,9 +536,12 @@
 			baseConfigurationReference = F2F6C89532FCC94867947C23 /* Pods-DateInTheDark.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = DateInTheDark/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DateInTheDark/DateInTheDark-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -520,9 +551,11 @@
 			baseConfigurationReference = 40E678D62E23B7C895A64E47 /* Pods-DateInTheDark.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = DateInTheDark/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DateInTheDark/DateInTheDark-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

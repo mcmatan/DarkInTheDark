@@ -17,6 +17,8 @@ class GuillotineMenuViewController: UIViewController {
     var menuButtonLeadingConstraint: NSLayoutConstraint!
     var menuButtonTopConstraint: NSLayoutConstraint!
     
+    var navigationController : UINavigationController!
+    
     private let menuButtonLandscapeLeadingConstant: CGFloat = 1
     private let menuButtonPortraitLeadingConstant: CGFloat = 7
     private let hostNavigationBarHeightLandscape: CGFloat = 32

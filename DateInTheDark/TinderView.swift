@@ -23,10 +23,6 @@ class TinderView : UIViewController {
     var loadCardsFromXib = false
     
     var reloadBarButtonItem = UIBarButtonItem(title: "Reload", style: .Plain) { item in }
-    var leftBarButtonItem = UIBarButtonItem(title: "←", style: .Plain) { item in }
-    var upBarButtonItem = UIBarButtonItem(title: "↑", style: .Plain) { item in }
-    var rightBarButtonItem = UIBarButtonItem(title: "→", style: .Plain) { item in }
-    var downBarButtonItem = UIBarButtonItem(title: "↓", style: .Plain) { item in }
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
@@ -41,6 +37,7 @@ class TinderView : UIViewController {
             destinationVC.hostTitleText = self.navigationItem.title
             destinationVC.view.backgroundColor = self.navigationController!.navigationBar.barTintColor
             destinationVC.setMenuButtonWithImage(barButton.imageView!.image!)
+            destinationVC.navigationController = self.navigationController
         }
     }
     
