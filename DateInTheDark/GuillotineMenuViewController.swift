@@ -17,7 +17,8 @@ class GuillotineMenuViewController: UIViewController {
     var menuButtonLeadingConstraint: NSLayoutConstraint!
     var menuButtonTopConstraint: NSLayoutConstraint!
     
-    var navigationController : UINavigationController!
+    var mainNavigationController : UINavigationController!
+    
     
     private let menuButtonLandscapeLeadingConstant: CGFloat = 1
     private let menuButtonPortraitLeadingConstant: CGFloat = 7
@@ -115,4 +116,20 @@ extension GuillotineMenuViewController: GuillotineAnimationProtocol {
     func hostTitle () -> NSString {
         return hostTitleText
     }
+    
+    
+    //MARK: Buttons
+    
+    @IBAction func goToProfile(sender: AnyObject) {
+        self.dismissViewControllerAnimated(true, completion: nil)
+        if let nav = self.mainNavigationController {
+            if let isStoryboard = self.storyboard {
+                var profileView : ProfileView = isStoryboard.instantiateViewControllerWithIdentifier("ProfileView") as! ProfileView
+                self.mainNavigationController .pushViewController(profileView, animated: true)
+            }
+        } else {
+            NSException(name: "No navigation controller", reason: "No navigation controller", userInfo: nil).raise()
+        }
+    }
+    
 }

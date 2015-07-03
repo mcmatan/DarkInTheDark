@@ -36,8 +36,8 @@ class TinderView : UIViewController {
             destinationVC.hostNavigationBarHeight = self.navigationController!.navigationBar.frame.size.height
             destinationVC.hostTitleText = self.navigationItem.title
             destinationVC.view.backgroundColor = self.navigationController!.navigationBar.barTintColor
+            destinationVC.mainNavigationController = self.navigationController
             destinationVC.setMenuButtonWithImage(barButton.imageView!.image!)
-            destinationVC.navigationController = self.navigationController
         }
     }
     
