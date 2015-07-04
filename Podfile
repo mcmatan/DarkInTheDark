@@ -8,6 +8,8 @@ pod 'Cartography', '~> 0.5'
 pod 'ReactiveUI', '~> 0.0'
 pod 'performSelector-swift', '~> 0.1'
 pod 'UIColor+FlatColors', '~> 0.0'
+pod 'SnapKit', '~> 0.12'
+pod 'ZoomTransition', '~> 0.1'
 
 end
 

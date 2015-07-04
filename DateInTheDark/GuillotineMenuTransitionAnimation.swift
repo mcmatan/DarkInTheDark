@@ -28,7 +28,7 @@ class GuillotineTransitionAnimation: NSObject {
     enum Mode { case Presentation, Dismissal }
     
     private let mode: Mode
-    private let duration = 0.6
+    private let duration = 0.3
     private let vectorDY: CGFloat = 1500
     private let vectorDx: CGFloat = 0.0
     private let initialMenuRotationAngle: CGFloat = -90
@@ -178,7 +178,6 @@ extension GuillotineTransitionAnimation: UIViewControllerAnimatedTransitioning {
 
 extension GuillotineTransitionAnimation: UICollisionBehaviorDelegate {
     func collisionBehavior(behavior: UICollisionBehavior, beganContactForItem item: UIDynamicItem, withBoundaryIdentifier identifier: NSCopying, atPoint p: CGPoint) {
-        println("collided")
         if let animationDelegate = menu as? protocol<GuillotineAnimationDelegate> {
                 animationDelegate.menuDidCollideWithBoundary?()
         }
@@ -194,7 +193,6 @@ extension GuillotineTransitionAnimation: UIDynamicAnimatorDelegate {
             menu.view.superview!.addScaleToFitView(menu.view, insets: UIEdgeInsetsZero)
             anchorPoint = CGPointZero
             menu.endAppearanceTransition()
-            println("finished")
             if let animationDelegate = menu as? protocol<GuillotineAnimationDelegate> {
                 animationDelegate.menuDidFinishPresentation?()
             }
@@ -208,6 +206,5 @@ extension GuillotineTransitionAnimation: UIDynamicAnimatorDelegate {
     }
     
     func dynamicAnimatorWillResume(animator: UIDynamicAnimator) {
-        println("started")
     }
 }

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3B2A9704BC96D486489B8C73"
+               BlueprintIdentifier = "34F6D7444C628ADC217CFE03"
                BuildableName = "Pods_DateInTheDark.framework"
                BlueprintName = "Pods-DateInTheDark"
                ReferencedContainer = "container:Pods.xcodeproj">

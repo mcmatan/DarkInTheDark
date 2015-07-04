@@ -50,14 +50,18 @@ code_sign() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'Cartography.framework'
   install_framework 'ReactiveUI.framework'
+  install_framework 'SnapKit.framework'
   install_framework 'UIColor_FlatColors.framework'
   install_framework 'ZLSwipeableViewSwift.framework'
+  install_framework 'ZoomTransition.framework'
   install_framework 'performSelector_swift.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'Cartography.framework'
   install_framework 'ReactiveUI.framework'
+  install_framework 'SnapKit.framework'
   install_framework 'UIColor_FlatColors.framework'
   install_framework 'ZLSwipeableViewSwift.framework'
+  install_framework 'ZoomTransition.framework'
   install_framework 'performSelector_swift.framework'
 fi

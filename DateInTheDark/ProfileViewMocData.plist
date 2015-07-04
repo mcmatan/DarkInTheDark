@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>ProfileImage</key>
+		<string>profile1.jpg</string>
+		<key>BackgroundImage</key>
+		<string>background1.jpg</string>
+		<key>UserName</key>
+		<string>Mytal</string>
+		<key>LastName</key>
+		<string>Cohen</string>
+		<key>Content</key>
+		<string>Go do somthing with your life</string>
+	</dict>
+	<dict>
+		<key>Content</key>
+		<string>Mybe your the one? Probebly not... (:</string>
+		<key>LastName</key>
+		<string>Shahar</string>
+		<key>UserName</key>
+		<string>Ashkenazy</string>
+		<key>BackgroundImage</key>
+		<string>background2.jpg</string>
+		<key>ProfileImage</key>
+		<string>profile2.jpg</string>
+	</dict>
+</array>
+</plist>

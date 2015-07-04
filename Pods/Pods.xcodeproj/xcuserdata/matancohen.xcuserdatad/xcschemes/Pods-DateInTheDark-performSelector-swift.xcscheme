@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B6490DCA23495C11B174DD4F"
+               BlueprintIdentifier = "5C145A839D67133CF7725EE3"
                BuildableName = "performSelector_swift.framework"
                BlueprintName = "Pods-DateInTheDark-performSelector-swift"
                ReferencedContainer = "container:Pods.xcodeproj">

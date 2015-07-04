@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ImageViewController" customModule="DateInTheDark" customModuleProvider="target">
+            <connections>
+                <outlet property="imageView" destination="Omu-tB-ZF1" id="clP-JM-jva"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Omu-tB-ZF1">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" red="0.81176470590000005" green="0.81176470590000005" blue="0.81176470590000005" alpha="1" colorSpace="calibratedRGB"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Omu-tB-ZF1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="3yu-86-l1T"/>
+                <constraint firstItem="Omu-tB-ZF1" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" placeholder="YES" id="7bn-oy-jT5"/>
+                <constraint firstAttribute="bottom" secondItem="Omu-tB-ZF1" secondAttribute="bottom" id="A6c-nK-nlE"/>
+                <constraint firstAttribute="trailing" secondItem="Omu-tB-ZF1" secondAttribute="trailing" id="aSq-FB-pfG"/>
+                <constraint firstAttribute="bottom" secondItem="Omu-tB-ZF1" secondAttribute="bottom" id="j7p-CY-Hcd"/>
+                <constraint firstItem="Omu-tB-ZF1" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="uGe-IV-MeF"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="7bn-oy-jT5"/>
+                    <exclude reference="A6c-nK-nlE"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="70" y="12"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="profile1.jpg" width="1771" height="2048"/>
+    </resources>
+</document>

@@ -18,6 +18,12 @@
 #define COCOAPODS_VERSION_MINOR_ReactiveUI 0
 #define COCOAPODS_VERSION_PATCH_ReactiveUI 2
 
+// SnapKit
+#define COCOAPODS_POD_AVAILABLE_SnapKit
+#define COCOAPODS_VERSION_MAJOR_SnapKit 0
+#define COCOAPODS_VERSION_MINOR_SnapKit 12
+#define COCOAPODS_VERSION_PATCH_SnapKit 0
+
 // UIColor+FlatColors
 #define COCOAPODS_POD_AVAILABLE_UIColor_FlatColors
 #define COCOAPODS_VERSION_MAJOR_UIColor_FlatColors 0
@@ -29,6 +35,12 @@
 #define COCOAPODS_VERSION_MAJOR_ZLSwipeableViewSwift 0
 #define COCOAPODS_VERSION_MINOR_ZLSwipeableViewSwift 0
 #define COCOAPODS_VERSION_PATCH_ZLSwipeableViewSwift 2
+
+// ZoomTransition
+#define COCOAPODS_POD_AVAILABLE_ZoomTransition
+#define COCOAPODS_VERSION_MAJOR_ZoomTransition 0
+#define COCOAPODS_VERSION_MINOR_ZoomTransition 1
+#define COCOAPODS_VERSION_PATCH_ZoomTransition 0
 
 // performSelector-swift
 #define COCOAPODS_POD_AVAILABLE_performSelector_swift

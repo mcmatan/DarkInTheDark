@@ -125,11 +125,12 @@ extension GuillotineMenuViewController: GuillotineAnimationProtocol {
         if let nav = self.mainNavigationController {
             if let isStoryboard = self.storyboard {
                 var profileView : ProfileView = isStoryboard.instantiateViewControllerWithIdentifier("ProfileView") as! ProfileView
-                self.mainNavigationController .pushViewController(profileView, animated: true)
+                self.mainNavigationController .pushViewController(profileView, animated: false)
             }
         } else {
             NSException(name: "No navigation controller", reason: "No navigation controller", userInfo: nil).raise()
         }
+        
     }
     
 }

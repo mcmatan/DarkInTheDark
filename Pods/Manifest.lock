@@ -2,21 +2,27 @@ PODS:
   - Cartography (0.5.0)
   - performSelector-swift (0.1.0)
   - ReactiveUI (0.0.2)
+  - SnapKit (0.12.0)
   - UIColor+FlatColors (0.0.2)
   - ZLSwipeableViewSwift (0.0.2)
+  - ZoomTransition (0.1)
 
 DEPENDENCIES:
   - Cartography (~> 0.5)
   - performSelector-swift (~> 0.1)
   - ReactiveUI (~> 0.0)
+  - SnapKit (~> 0.12)
   - UIColor+FlatColors (~> 0.0)
   - ZLSwipeableViewSwift
+  - ZoomTransition (~> 0.1)
 
 SPEC CHECKSUMS:
   Cartography: 774e5cc446f5a6bca5d4345c5aa6af9a1fe74dc6
   performSelector-swift: 676d3dab420ed7e1505a7cdaf35e5741509cdd3c
   ReactiveUI: 597b21e143dfc5fe438afc1b7a73c5c7e256175b
+  SnapKit: 00c388aa3bf1944c1b55472f31e841f75bd83882
   UIColor+FlatColors: 6c699df7a575281794c688c64cee6c44fd1f93b4
   ZLSwipeableViewSwift: 28b161ea3445ee380b684dd828a4d4bebc2a1f95
+  ZoomTransition: 3e25b8dfc70c683c3d6d5aa8c3838e456362d039
 
 COCOAPODS: 0.37.2

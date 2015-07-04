@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A4568851B4721A200D98A02 /* ProfileImageColCel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4568841B4721A200D98A02 /* ProfileImageColCel.swift */; };
+		8A45688D1B47FFD700D98A02 /* background1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A4568891B47FFD700D98A02 /* background1.jpg */; };
+		8A45688E1B47FFD700D98A02 /* background2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A45688A1B47FFD700D98A02 /* background2.jpg */; };
+		8A45688F1B47FFD700D98A02 /* profile1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A45688B1B47FFD700D98A02 /* profile1.jpg */; };
+		8A4568901B47FFD700D98A02 /* profile2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A45688C1B47FFD700D98A02 /* profile2.jpg */; };
+		8A4568921B48006B00D98A02 /* ProfileViewMocData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A4568911B48006B00D98A02 /* ProfileViewMocData.plist */; };
+		8A4568961B48036500D98A02 /* PlistLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4568951B48036500D98A02 /* PlistLoader.swift */; };
+		8A45689A1B480B2100D98A02 /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4568991B480B2100D98A02 /* RoundImageView.swift */; };
+		8A45689F1B480DE300D98A02 /* ImageViewExntentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A45689E1B480DE300D98A02 /* ImageViewExntentions.swift */; };
+		8A4568A11B4812DC00D98A02 /* ViewExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4568A01B4812DC00D98A02 /* ViewExtentions.swift */; };
 		8AC6FE061B3D8462006880EF /* TinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC6FE051B3D8462006880EF /* TinderView.swift */; };
 		8AC6FE081B3D846C006880EF /* TinderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC6FE071B3D846C006880EF /* TinderViewModel.swift */; };
 		8AC6FE0A1B3D8B93006880EF /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC6FE091B3D8B93006880EF /* CardView.swift */; };
@@ -24,6 +34,13 @@
 		8AC6FE251B3D90E8006880EF /* ic_profile@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC6FE1D1B3D90E8006880EF /* ic_profile@3x.png */; };
 		8AC6FE261B3D90E8006880EF /* ic_settings@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC6FE1E1B3D90E8006880EF /* ic_settings@3x.png */; };
 		8AC6FE381B3F28C5006880EF /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC6FE371B3F28C5006880EF /* ProfileView.swift */; };
+		8AE0BC7F1B48276A003BEFAA /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AE0BC7E1B48276A003BEFAA /* CardView.xib */; };
+		8AE0BC821B482822003BEFAA /* ViewBaseSW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE0BC811B482822003BEFAA /* ViewBaseSW.swift */; };
+		8AE0BC841B4828A6003BEFAA /* SwiftOjectiveCComplint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE0BC831B4828A6003BEFAA /* SwiftOjectiveCComplint.swift */; };
+		8AE0BC861B483C88003BEFAA /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE0BC851B483C88003BEFAA /* ImageViewController.swift */; };
+		8AE0BC891B483E1F003BEFAA /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AE0BC881B483E1F003BEFAA /* ImageViewController.xib */; };
+		8AE0BC8C1B484587003BEFAA /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE0BC8B1B484587003BEFAA /* MainNavigationController.swift */; };
+		8AE0BC8F1B484902003BEFAA /* OpeningImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE0BC8E1B484902003BEFAA /* OpeningImageView.swift */; };
 		8AF42A6A1B3D7E4C004B5EF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF42A691B3D7E4C004B5EF7 /* AppDelegate.swift */; };
 		8AF42A6F1B3D7E4C004B5EF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF42A6D1B3D7E4C004B5EF7 /* Main.storyboard */; };
 		8AF42A711B3D7E4C004B5EF7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AF42A701B3D7E4C004B5EF7 /* Images.xcassets */; };
@@ -45,6 +62,16 @@
 /* Begin PBXFileReference section */
 		40E678D62E23B7C895A64E47 /* Pods-DateInTheDark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DateInTheDark.release.xcconfig"; path = "Pods/Target Support Files/Pods-DateInTheDark/Pods-DateInTheDark.release.xcconfig"; sourceTree = "<group>"; };
 		7C7F646CA8F21AE3C41EAD04 /* Pods_DateInTheDark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DateInTheDark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A4568841B4721A200D98A02 /* ProfileImageColCel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileImageColCel.swift; sourceTree = "<group>"; };
+		8A4568891B47FFD700D98A02 /* background1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background1.jpg; sourceTree = "<group>"; };
+		8A45688A1B47FFD700D98A02 /* background2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background2.jpg; sourceTree = "<group>"; };
+		8A45688B1B47FFD700D98A02 /* profile1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile1.jpg; sourceTree = "<group>"; };
+		8A45688C1B47FFD700D98A02 /* profile2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile2.jpg; sourceTree = "<group>"; };
+		8A4568911B48006B00D98A02 /* ProfileViewMocData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ProfileViewMocData.plist; sourceTree = "<group>"; };
+		8A4568951B48036500D98A02 /* PlistLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistLoader.swift; sourceTree = "<group>"; };
+		8A4568991B480B2100D98A02 /* RoundImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundImageView.swift; sourceTree = "<group>"; };
+		8A45689E1B480DE300D98A02 /* ImageViewExntentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewExntentions.swift; sourceTree = "<group>"; };
+		8A4568A01B4812DC00D98A02 /* ViewExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtentions.swift; sourceTree = "<group>"; };
 		8AC6FE051B3D8462006880EF /* TinderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinderView.swift; sourceTree = "<group>"; };
 		8AC6FE071B3D846C006880EF /* TinderViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinderViewModel.swift; sourceTree = "<group>"; };
 		8AC6FE091B3D8B93006880EF /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -62,6 +89,13 @@
 		8AC6FE1D1B3D90E8006880EF /* ic_profile@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_profile@3x.png"; sourceTree = "<group>"; };
 		8AC6FE1E1B3D90E8006880EF /* ic_settings@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_settings@3x.png"; sourceTree = "<group>"; };
 		8AC6FE371B3F28C5006880EF /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		8AE0BC7E1B48276A003BEFAA /* CardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		8AE0BC811B482822003BEFAA /* ViewBaseSW.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewBaseSW.swift; sourceTree = "<group>"; };
+		8AE0BC831B4828A6003BEFAA /* SwiftOjectiveCComplint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftOjectiveCComplint.swift; sourceTree = "<group>"; };
+		8AE0BC851B483C88003BEFAA /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		8AE0BC881B483E1F003BEFAA /* ImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewController.xib; sourceTree = "<group>"; };
+		8AE0BC8B1B484587003BEFAA /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		8AE0BC8E1B484902003BEFAA /* OpeningImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpeningImageView.swift; sourceTree = "<group>"; };
 		8AF42A641B3D7E4C004B5EF7 /* DateInTheDark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateInTheDark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF42A681B3D7E4C004B5EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AF42A691B3D7E4C004B5EF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -110,9 +144,61 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		8A4568821B47218900D98A02 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8A4568841B4721A200D98A02 /* ProfileImageColCel.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		8A4568931B48034A00D98A02 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Content;
+			sourceTree = "<group>";
+		};
+		8A4568941B48035300D98A02 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				8AE0BC831B4828A6003BEFAA /* SwiftOjectiveCComplint.swift */,
+				8A4568951B48036500D98A02 /* PlistLoader.swift */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		8A4568971B480B0B00D98A02 /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				8AE0BC8D1B4848F3003BEFAA /* OpeningImageView */,
+				8AE0BC801B482818003BEFAA /* UIView */,
+				8A4568981B480B1300D98A02 /* ImageView */,
+			);
+			name = Subclasses;
+			sourceTree = "<group>";
+		};
+		8A4568981B480B1300D98A02 /* ImageView */ = {
+			isa = PBXGroup;
+			children = (
+				8A4568991B480B2100D98A02 /* RoundImageView.swift */,
+			);
+			name = ImageView;
+			sourceTree = "<group>";
+		};
+		8A45689B1B480D8E00D98A02 /* ViewExntentions */ = {
+			isa = PBXGroup;
+			children = (
+				8A45689E1B480DE300D98A02 /* ImageViewExntentions.swift */,
+				8A4568A01B4812DC00D98A02 /* ViewExtentions.swift */,
+			);
+			name = ViewExntentions;
+			sourceTree = "<group>";
+		};
 		8AC6FE031B3D843C006880EF /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				8AE0BC871B483C8C003BEFAA /* ImageViewController */,
 				8AC6FE271B3F286E006880EF /* ProfileView */,
 				8AC6FE0D1B3D90B1006880EF /* Menu */,
 				8AC6FE041B3D8445006880EF /* TinderView */,
@@ -123,10 +209,10 @@
 		8AC6FE041B3D8445006880EF /* TinderView */ = {
 			isa = PBXGroup;
 			children = (
+				8AE0BC901B48565C003BEFAA /* CardView */,
 				8AC6FE391B3F301B006880EF /* Imports */,
 				8AC6FE051B3D8462006880EF /* TinderView.swift */,
 				8AC6FE071B3D846C006880EF /* TinderViewModel.swift */,
-				8AC6FE091B3D8B93006880EF /* CardView.swift */,
 			);
 			name = TinderView;
 			sourceTree = "<group>";
@@ -143,6 +229,10 @@
 		8AC6FE161B3D90DC006880EF /* TempImages */ = {
 			isa = PBXGroup;
 			children = (
+				8A4568891B47FFD700D98A02 /* background1.jpg */,
+				8A45688A1B47FFD700D98A02 /* background2.jpg */,
+				8A45688B1B47FFD700D98A02 /* profile1.jpg */,
+				8A45688C1B47FFD700D98A02 /* profile2.jpg */,
 				8AC6FE171B3D90E8006880EF /* content_1@3x.png */,
 				8AC6FE181B3D90E8006880EF /* content_2@3x.png */,
 				8AC6FE191B3D90E8006880EF /* ic_activity@3x.png */,
@@ -159,6 +249,8 @@
 			isa = PBXGroup;
 			children = (
 				8AC6FE371B3F28C5006880EF /* ProfileView.swift */,
+				8A4568911B48006B00D98A02 /* ProfileViewMocData.plist */,
+				8A4568821B47218900D98A02 /* Cells */,
 			);
 			name = ProfileView;
 			sourceTree = "<group>";
@@ -179,6 +271,48 @@
 				8AC6FE0F1B3D90C0006880EF /* GuillotineMenuTransitionAnimation.swift */,
 			);
 			name = Imports;
+			sourceTree = "<group>";
+		};
+		8AE0BC801B482818003BEFAA /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				8AE0BC811B482822003BEFAA /* ViewBaseSW.swift */,
+			);
+			name = UIView;
+			sourceTree = "<group>";
+		};
+		8AE0BC871B483C8C003BEFAA /* ImageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8AE0BC851B483C88003BEFAA /* ImageViewController.swift */,
+				8AE0BC881B483E1F003BEFAA /* ImageViewController.xib */,
+			);
+			name = ImageViewController;
+			sourceTree = "<group>";
+		};
+		8AE0BC8A1B48456D003BEFAA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8AE0BC8B1B484587003BEFAA /* MainNavigationController.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		8AE0BC8D1B4848F3003BEFAA /* OpeningImageView */ = {
+			isa = PBXGroup;
+			children = (
+				8AE0BC8E1B484902003BEFAA /* OpeningImageView.swift */,
+			);
+			name = OpeningImageView;
+			sourceTree = "<group>";
+		};
+		8AE0BC901B48565C003BEFAA /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				8AC6FE091B3D8B93006880EF /* CardView.swift */,
+				8AE0BC7E1B48276A003BEFAA /* CardView.xib */,
+			);
+			name = CardView;
 			sourceTree = "<group>";
 		};
 		8AF42A5B1B3D7E4C004B5EF7 = {
@@ -204,6 +338,11 @@
 		8AF42A661B3D7E4C004B5EF7 /* DateInTheDark */ = {
 			isa = PBXGroup;
 			children = (
+				8AE0BC8A1B48456D003BEFAA /* Components */,
+				8A45689B1B480D8E00D98A02 /* ViewExntentions */,
+				8A4568971B480B0B00D98A02 /* Subclasses */,
+				8A4568941B48035300D98A02 /* Tools */,
+				8A4568931B48034A00D98A02 /* Content */,
 				8AC6FE031B3D843C006880EF /* ViewControllers */,
 				8AF42A691B3D7E4C004B5EF7 /* AppDelegate.swift */,
 				8AF42A6D1B3D7E4C004B5EF7 /* Main.storyboard */,
@@ -325,11 +464,18 @@
 			files = (
 				8AF42A6F1B3D7E4C004B5EF7 /* Main.storyboard in Resources */,
 				8AC6FE201B3D90E8006880EF /* content_2@3x.png in Resources */,
+				8AE0BC7F1B48276A003BEFAA /* CardView.xib in Resources */,
 				8AC6FE1F1B3D90E8006880EF /* content_1@3x.png in Resources */,
 				8AF42A741B3D7E4C004B5EF7 /* LaunchScreen.xib in Resources */,
 				8AC6FE261B3D90E8006880EF /* ic_settings@3x.png in Resources */,
+				8A45688E1B47FFD700D98A02 /* background2.jpg in Resources */,
 				8AC6FE231B3D90E8006880EF /* ic_menu@3x.png in Resources */,
+				8A4568921B48006B00D98A02 /* ProfileViewMocData.plist in Resources */,
 				8AC6FE251B3D90E8006880EF /* ic_profile@3x.png in Resources */,
+				8AE0BC891B483E1F003BEFAA /* ImageViewController.xib in Resources */,
+				8A4568901B47FFD700D98A02 /* profile2.jpg in Resources */,
+				8A45688D1B47FFD700D98A02 /* background1.jpg in Resources */,
+				8A45688F1B47FFD700D98A02 /* profile1.jpg in Resources */,
 				8AC6FE211B3D90E8006880EF /* ic_activity@3x.png in Resources */,
 				8AF42A711B3D7E4C004B5EF7 /* Images.xcassets in Resources */,
 				8AC6FE241B3D90E8006880EF /* ic_menuRotated@3x.png in Resources */,
@@ -405,10 +551,20 @@
 				8AC6FE131B3D90C0006880EF /* GuillotineMenuTransitionAnimation.swift in Sources */,
 				8AC6FE061B3D8462006880EF /* TinderView.swift in Sources */,
 				8AC6FE081B3D846C006880EF /* TinderViewModel.swift in Sources */,
+				8A4568A11B4812DC00D98A02 /* ViewExtentions.swift in Sources */,
+				8AE0BC8F1B484902003BEFAA /* OpeningImageView.swift in Sources */,
 				8AC6FE151B3D90C0006880EF /* UIViewExtension.swift in Sources */,
+				8A4568961B48036500D98A02 /* PlistLoader.swift in Sources */,
 				8AC6FE0A1B3D8B93006880EF /* CardView.swift in Sources */,
+				8AE0BC861B483C88003BEFAA /* ImageViewController.swift in Sources */,
 				8AC6FE381B3F28C5006880EF /* ProfileView.swift in Sources */,
+				8AE0BC821B482822003BEFAA /* ViewBaseSW.swift in Sources */,
+				8A45689F1B480DE300D98A02 /* ImageViewExntentions.swift in Sources */,
+				8AE0BC841B4828A6003BEFAA /* SwiftOjectiveCComplint.swift in Sources */,
+				8A4568851B4721A200D98A02 /* ProfileImageColCel.swift in Sources */,
 				8AF42A6A1B3D7E4C004B5EF7 /* AppDelegate.swift in Sources */,
+				8AE0BC8C1B484587003BEFAA /* MainNavigationController.swift in Sources */,
+				8A45689A1B480B2100D98A02 /* RoundImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,6 +696,7 @@
 				INFOPLIST_FILE = DateInTheDark/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -555,6 +712,7 @@
 				INFOPLIST_FILE = DateInTheDark/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

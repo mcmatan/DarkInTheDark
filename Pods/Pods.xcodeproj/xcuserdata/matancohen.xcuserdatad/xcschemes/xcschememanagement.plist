@@ -14,12 +14,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-DateInTheDark-SnapKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-DateInTheDark-UIColor+FlatColors.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods-DateInTheDark-ZLSwipeableViewSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-DateInTheDark-ZoomTransition.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,32 +47,42 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>12757797938CD0E3EDF9CBEA</key>
+		<key>068F74F06337BCFAA2DC8A2E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>27B0534206C42CB2D4003D26</key>
+		<key>34F6D7444C628ADC217CFE03</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3B2A9704BC96D486489B8C73</key>
+		<key>5376F002EEDC9A468009DF4B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4304C538CBB52CC0D9ECFA21</key>
+		<key>598524905AA7830EB194DF91</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6A7C72DF74AD3A500F69715E</key>
+		<key>5C145A839D67133CF7725EE3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B6490DCA23495C11B174DD4F</key>
+		<key>675DD2021743A0189F164646</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A4439F4EC30A8168FD567CC9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F297D72657E524CDE1B37221</key>
 		<dict>
 			<key>primary</key>
 			<true/>
